@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    // General
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+
+    // C/C++
+
+    // Godot
+    "geequlim.godot-tools"
+  ]
+}
