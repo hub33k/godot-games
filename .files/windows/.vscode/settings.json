@@ -1,0 +1,58 @@
+{
+  // Editor
+  // ================================================================
+
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.minimap.autohide": true,
+  "editor.inlayHints.enabled": "off",
+
+  // Workbench
+  // ================================================================
+
+  // https://www.linkedin.com/feed/update/urn:li:activity:7176578334808502273/
+  "workbench.editor.customLabels.enabled": true,
+  "workbench.editor.customLabels.patterns": {
+    "**/__init__.py": "${dirname}.init.py"
+
+    // index.ts
+    // "**/index.ts": "${dirname}.index.ts",
+    // Svelte routes
+    // "**/routes/**/+page.svelte": "${dirname(1)}/${dirname}",
+    // "**/routes/**/+page.server.ts": "/${dirname} [server]",
+    // Next.js app routes
+    // "**/app/**/route.ts": "${dirname}.route.${extname}",
+    // "**/app/**/page.tsx": "${dirname}.${extname}",
+    // "**/app/**/layout.tsx": "${dirname}/layout.${extname}"
+  },
+
+  // Misc
+  // ================================================================
+
+  "terminal.integrated.fontSize": 18,
+
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/tmp": true,
+    "hub33k-notes": true,
+    ".next": true
+  },
+
+  // Languages
+  // ================================================================
+
+  // Python
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+
+  // Extensions
+  // ================================================================
+
+  "prettier.configPath": ".prettierrc.cjs",
+
+  "codeium.enableCodeLens": false,
+  "codeium.enableConfig": {}
+}
