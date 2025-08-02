@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    // General
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+
+    // Code
+    "geequlim.godot-tools",
+    "golang.go",
+    "zxh404.vscode-proto3"
+  ]
+}
