@@ -40,3 +40,6 @@
   - check
     - convex
     - surrealdb
+- websockets
+  - TCP based (not for fast paced, realtime game; use UDP otherwise)
+  - https://github.com/gorilla/websocket

@@ -1,0 +1,8 @@
+{
+  "name": "server",
+  "private": true,
+  "scripts": {
+    "fmt": "go fmt ./...",
+    "test": "go test ./..."
+  }
+}
